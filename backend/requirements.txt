@@ -1,0 +1,18 @@
+fastapi
+openai
+uvicorn
+google-genai
+langchain
+langchain-community
+langchain-text-splitters
+chromadb
+pymupdf
+python-pptx
+supabase
+python-jose
+passlib
+python-multipart
+python-dotenv
+pydantic-settings
+# Optional OCR fallback:
+# Install PaddlePaddle first, then paddleocr[all] when PP-StructureV3 parsing is needed.

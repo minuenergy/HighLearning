@@ -1,0 +1,20 @@
+{
+  "name": "socrateach",
+  "private": true,
+  "scripts": {
+    "dev": "./dev.sh",
+    "dev:local": "./dev.sh",
+    "dev:frontend": "NODE_OPTIONS=\"${NODE_OPTIONS:+$NODE_OPTIONS }--max-old-space-size=${NODE_MAX_OLD_SPACE_SIZE:-4096}\" npm --prefix frontend run dev",
+    "dev:backend": "cd backend && ./.venv/bin/python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+    "supabase:start": "cd backend && supabase start",
+    "supabase:stop": "cd backend && supabase stop",
+    "supabase:status": "cd backend && supabase status",
+    "supabase:db:reset": "cd backend && supabase db reset",
+    "supabase:env": "python3 scripts/sync_local_supabase_env.py",
+    "supabase:env:start": "python3 scripts/sync_local_supabase_env.py --start",
+    "qa:final": "bash scripts/run_final_qa.sh"
+  },
+  "devDependencies": {
+    "supabase": "^2.89.1"
+  }
+}

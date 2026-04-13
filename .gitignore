@@ -1,0 +1,37 @@
+# ── 의존성 ────────────────────────────────────────────────
+node_modules/
+backend/.venv/
+backend/.ocr-venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ── 빌드 결과물 ───────────────────────────────────────────
+frontend/.next/
+frontend/out/
+
+# ── 로컬 데이터 & 생성 파일 ───────────────────────────────
+backend/data/
+backend/generated/
+backend/supabase/seeds/generated/
+backend/chroma_db/
+backend/.vision-ocr/
+
+# ── 환경변수 (절대 커밋 금지) ─────────────────────────────
+backend/.env
+backend/.env.*
+frontend/.env.local
+frontend/.env.*.local
+.env
+.env.local
+
+# ── Supabase 로컬 ────────────────────────────────────────
+backend/supabase/.temp/
+
+# ── 기타 ────────────────────────────────────────────────
+.DS_Store
+*.log
+.idea/
+.vscode/
+backend/.swift-module-cache/
+*.pcm
