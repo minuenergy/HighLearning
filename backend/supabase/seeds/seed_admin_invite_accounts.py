@@ -18,6 +18,7 @@
 from __future__ import annotations
 
 import csv
+import os
 import sys
 import uuid
 from dataclasses import dataclass
@@ -49,9 +50,10 @@ NAMESPACE = uuid.UUID("5d6ab337-3be3-4e4d-8df8-6f1226827f7d")
 ACADEMIC_YEAR = 2026
 SCHOOL_NAME = "소크라중학교"
 SCHOOL_DOMAIN = "socrateach.school"
-ADMIN_PASSWORD = "SocraTeachAdmin!2026"
-TEACHER_PASSWORD = "SocraTeachTeacher!2026"
-STUDENT_PASSWORD = "SocraTeachStudent!2026"
+# 배포 전 환경변수로 반드시 교체하세요 (기본값은 로컬 개발용)
+ADMIN_PASSWORD = os.getenv("SEED_ADMIN_PASSWORD", "ChangeMe-Admin!2026")
+TEACHER_PASSWORD = os.getenv("SEED_TEACHER_PASSWORD", "ChangeMe-Teacher!2026")
+STUDENT_PASSWORD = os.getenv("SEED_STUDENT_PASSWORD", "ChangeMe-Student!2026")
 STUDENTS_PER_TEACHER = 30
 
 

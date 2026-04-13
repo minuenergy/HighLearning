@@ -9,6 +9,7 @@
 from __future__ import annotations
 
 import csv
+import os
 import sys
 from pathlib import Path
 
@@ -126,7 +127,7 @@ for p in sorted(profiles, key=lambda x: x["email"]):
         "account_type":        account_type,
         "user_id":             p["id"],
         "email":               p["email"],
-        "password":            "SocraTeachAdmin!2026" if account_type == "admin_teacher" else "SocraTeachTeacher!2026",
+        "password":            os.getenv("SEED_ADMIN_PASSWORD", "***") if account_type == "admin_teacher" else os.getenv("SEED_TEACHER_PASSWORD", "***"),
         "full_name":           p["full_name"] or "",
         "role":                p["role"],
         "school_name":         ts.get("school_name") or "",
@@ -178,7 +179,7 @@ for p in sorted(profiles, key=lambda x: x["email"]):
     student_rows.append({
         "user_id":             p["id"],
         "email":               p["email"],
-        "password":            "SocraTeachStudent!2026",
+        "password":            os.getenv("SEED_STUDENT_PASSWORD", "***"),
         "full_name":           p["full_name"] or "",
         "role":                p["role"],
         "phone_number":        ss.get("phone_number") or "",
