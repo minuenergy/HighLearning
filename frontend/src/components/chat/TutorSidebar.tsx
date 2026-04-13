@@ -69,7 +69,7 @@ export default function TutorSidebar({
           <TutorWorkspacePanel
             courseId={courseId}
             studentId={studentId}
-            defaultConcept={concept}
+            defaultConcept={concept ?? ''}
             starterPrompt={starterPrompt}
             focusQuestion={focusQuestion}
             contextTitle={contextTitle}
