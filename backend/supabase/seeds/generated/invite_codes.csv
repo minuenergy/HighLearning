@@ -1,0 +1,11 @@
+code,role,purpose,created_by,created_by_name,label,school_class_id,course_id,subject_names,max_uses,used_count,active,expires_at
+STD-BW367IC6,student,student_onboarding,4363fae5-0791-50d4-b33f-66ce5280cab5,정가은,중3 5반,704b9fe3-44ee-5098-9d5f-0ca6caec26b3,8cc2a979-6b9c-5fc0-90aa-2eb787145e8b,사회,35,30,True,2026-10-08T23:46:04.003547+00:00
+STD-CZPIUEXJ,student,student_onboarding,8caca1f6-3222-5a34-94cf-c188bb982efc,김서윤,중1 1반,49922535-bc71-5356-9a4f-0b3493d3e1bb,3a3a86bc-3fce-5d83-abb8-7a30489301bb,국어,35,30,True,2026-10-08T23:45:51.564573+00:00
+STD-I9GEXSQR,student,student_onboarding,229f8f61-475b-5cfc-8fd1-1168f27e433d,이도현,중1 2반,e36569a3-9bc3-5408-98ea-36df906c2c52,2ac29dca-5b4a-591d-bc29-57ac3a93b693,수학,35,30,True,2026-10-08T23:45:54.734975+00:00
+STD-JI898DO4,student,student_onboarding,a76594be-b1d0-5e99-9481-edbd6163f764,최준호,중2 4반,0f590936-4d87-548d-ac34-5ae52ddf5cf9,b8afb712-7780-55f3-804c-1e562f8a7f4c,과학,35,30,True,2026-10-08T23:46:00.947826+00:00
+STD-UI3U7KR3,student,student_onboarding,70b2c8ff-80dd-58b5-9aa9-b65aae8411f6,박하린,중2 3반,cdf5868d-b9aa-5a49-a6ec-ccaef2dd249e,946a4e24-4c9c-5d2f-94c5-d505f34b93b8,영어,35,30,True,2026-10-08T23:45:57.808388+00:00
+TCH-6W8AYSUA,teacher,teacher_onboarding,b02ec264-5291-5e59-bd57-773dc60620d0,한도윤,소크라중학교 국어 교사 초대 1,,,국어,1,1,False,2026-10-08T23:45:51.436461+00:00
+TCH-F4BGWR2G,teacher,teacher_onboarding,b02ec264-5291-5e59-bd57-773dc60620d0,한도윤,소크라중학교 사회 교사 초대 5,,,사회,1,1,False,2026-10-08T23:46:03.89418+00:00
+TCH-K5GEBC4D,teacher,teacher_onboarding,b02ec264-5291-5e59-bd57-773dc60620d0,한도윤,소크라중학교 영어 교사 초대 3,,,영어,1,1,False,2026-10-08T23:45:57.696839+00:00
+TCH-P71YSHYF,teacher,teacher_onboarding,b02ec264-5291-5e59-bd57-773dc60620d0,한도윤,소크라중학교 수학 교사 초대 2,,,수학,1,1,False,2026-10-08T23:45:54.623424+00:00
+TCH-YH4LOD6B,teacher,teacher_onboarding,b02ec264-5291-5e59-bd57-773dc60620d0,한도윤,소크라중학교 과학 교사 초대 4,,,과학,1,1,False,2026-10-08T23:46:00.834808+00:00
